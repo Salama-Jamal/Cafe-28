@@ -17,7 +17,7 @@ export default function Location() {
           <ul className="space-y-4 text-coffee-dark">
             <li className="flex items-start gap-3">
               <MapPin className="text-gold shrink-0 mt-1" />
-              <span>Marrakech, Morocco — [exact address]</span>
+              <span>cafe 28, Rue Assouel, Marrakesh 40000</span>
             </li>
             <li className="flex items-start gap-3">
               <Clock className="text-gold shrink-0 mt-1" />
@@ -25,11 +25,18 @@ export default function Location() {
             </li>
             <li className="flex items-start gap-3">
               <Phone className="text-gold shrink-0 mt-1" />
-              <span>+212 6XX XXX XXX</span>
+              <span>+212636035661</span>
             </li>
             <li className="flex items-start gap-3">
               <MessageCircle className="text-gold shrink-0 mt-1" />
-              <span>WhatsApp us for reservations</span>
+              <a
+                href="https://wa.me/212636035661"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gold transition-colors"
+              >
+                WhatsApp us for reservations
+              </a>
             </li>
           </ul>
         </div>
@@ -37,7 +44,7 @@ export default function Location() {
         <div className="w-full h-80 md:h-96 rounded-2xl overflow-hidden shadow-md">
           <iframe
             title="Cafe 28 location"
-            src="https://www.google.com/maps/embed?pb=YOUR_EMBED_URL"
+            src="https://www.google.com/maps?q=cafe%2028%2C%20Rue%20Assouel%2C%20Marrakesh%2040000&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}
