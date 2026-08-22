@@ -1,0 +1,10 @@
+{
+  "name": "cafe-28-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix cafe28 run dev",
+    "build": "npm --prefix cafe28 run build",
+    "start": "npm --prefix cafe28 run start",
+    "lint": "npm --prefix cafe28 run lint"
+  }
+}
