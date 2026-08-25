@@ -35,7 +35,7 @@ export default function About() {
           className="relative w-full h-80 md:h-96 rounded-2xl overflow-hidden"
         >
           <Image
-            src="/images/interior.jpg"
+            src="/images/iced-coffee.png"
             alt="Cafe 28 interior"
             fill
             className="object-cover"

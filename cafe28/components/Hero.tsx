@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
       <Image
-        src="/images/hero-coffee.jpg"
+        src="/images/coffee.png"
         alt="Cafe 28 signature drinks"
         fill
         priority

@@ -1,19 +1,19 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+import Image from "Components/images";
 
 const products = [
-  { name: "Coffee", img: "/images/coffee.jpg" },
-  { name: "Iced Coffee", img: "/images/iced-coffee.jpg" },
-  { name: "Matcha", img: "/images/matcha.jpg" },
-  { name: "Smoothies", img: "/images/smoothie.jpg" },
-  { name: "Milkshakes", img: "/images/milkshake.jpg" },
-  { name: "Mojito", img: "/images/mojito.jpg" },
-  { name: "Iced Tea", img: "/images/iced-tea.jpg" },
-  { name: "Fresh Juice", img: "/images/juice.jpg" },
-  { name: "Toast", img: "/images/toast.jpg" },
-  { name: "Desserts", img: "/images/dessert.jpg" },
+  { name: "Coffee", img: "/Components/images/coffee.png" },
+  { name: "Iced Coffee", img: "/Components/images/iced-coffee.png" },
+  { name: "Matcha", img: "/Components/images/matcha.png" },
+  { name: "Smoothies", img: "/Components/images/smoothie.png" },
+  { name: "Milkshakes", img: "/Components/images/milkshake.png" },
+  { name: "Mojito", img: "/Components/images/mojito.png" },
+  { name: "Iced Tea", img: "/Components/images/iced-tea.png" },
+  { name: "Taro", img: "/Components/images/taro.png" },
+  { name: "Toast", img: "/Components/images/toast.png" },
+  { name: "Desserts", img: "/Components/images/tiramesu.png" },
 ];
 
 export default function PopularProducts() {
