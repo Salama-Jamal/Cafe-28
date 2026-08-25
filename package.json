@@ -2,9 +2,9 @@
   "name": "cafe-28-workspace",
   "private": true,
   "scripts": {
-    "dev": "npm --prefix cafe28 run dev",
-    "build": "npm --prefix cafe28 run build",
-    "start": "npm --prefix cafe28 run start",
-    "lint": "npm --prefix cafe28 run lint"
+    "dev": "cd cafe28 && /Users/Salama/.local/node/node-v20.19.0-darwin-x64/bin/node node_modules/next/dist/bin/next dev -H 127.0.0.1 --webpack",
+    "build": "cd cafe28 && /Users/Salama/.local/node/node-v20.19.0-darwin-x64/bin/node node_modules/next/dist/bin/next build --webpack",
+    "start": "cd cafe28 && /Users/Salama/.local/node/node-v20.19.0-darwin-x64/bin/node node_modules/next/dist/bin/next start",
+    "lint": "cd cafe28 && /Users/Salama/.local/node/node-v20.19.0-darwin-x64/bin/node node_modules/eslint/bin/eslint.js"
   }
 }

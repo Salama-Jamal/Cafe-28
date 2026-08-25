@@ -26,7 +26,12 @@ export default function Navbar() {
         <ul className="hidden md:flex gap-8 text-coffee-dark font-medium">
           {links.map((l) => (
             <li key={l.href}>
-              <Link href={l.href} className="hover:text-gold transition-colors">
+              <Link
+                href={l.href}
+                target={l.href.startsWith("http") ? "_blank" : undefined}
+                rel={l.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                className="hover:text-gold transition-colors"
+              >
                 {l.label}
               </Link>
             </li>
@@ -50,7 +55,12 @@ export default function Navbar() {
         >
           {links.map((l) => (
             <li key={l.href}>
-              <Link href={l.href} onClick={() => setOpen(false)}>
+              <Link
+                href={l.href}
+                target={l.href.startsWith("http") ? "_blank" : undefined}
+                rel={l.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                onClick={() => setOpen(false)}
+              >
                 {l.label}
               </Link>
             </li>

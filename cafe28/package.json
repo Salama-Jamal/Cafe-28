@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -H 127.0.0.1",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "/Users/Salama/.local/node/node-v20.19.0-darwin-x64/bin/node node_modules/next/dist/bin/next dev -H 127.0.0.1 --webpack",
+    "build": "/Users/Salama/.local/node/node-v20.19.0-darwin-x64/bin/node node_modules/next/dist/bin/next build --webpack",
+    "start": "/Users/Salama/.local/node/node-v20.19.0-darwin-x64/bin/node node_modules/next/dist/bin/next start",
+    "lint": "/Users/Salama/.local/node/node-v20.19.0-darwin-x64/bin/node node_modules/eslint/bin/eslint.js"
   },
   "dependencies": {
     "framer-motion": "^13.1.1",
